@@ -1,0 +1,25 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 380px;
+  margin: 0 auto;
+  background-color: #ddebf8;
+  border-bottom: 5px solid #2b2839;
+}
+
+.me-img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.text{
+  color: #2b2839;
+  display: inline-block;
+  text-align: center;
+}
